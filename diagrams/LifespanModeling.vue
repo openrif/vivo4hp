@@ -1,14 +1,14 @@
 <!-- Tufts VUE 3.3.0 concept-map (LifespanModeling.vue) 2016-07-01 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Fri Jul 01 12:45:45 PDT 2016 by whimar on platform Mac OS X 10.11.5 in JVM 1.8.0_74-b02 -->
+<!-- Do Not Remove: Saved date Fri Jul 01 18:22:43 PDT 2016 by whimar on platform Mac OS X 10.11.5 in JVM 1.8.0_74-b02 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
     xsi:noNamespaceSchemaLocation="none" ID="0"
     label="LifespanModeling.vue" created="1466734581695" x="0.0" y="0.0"
-    width="748.33" height="750.35815" strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1467402345709" size="21960"
+    width="758.2188" height="763.09595" strokeWidth="0.0" autoSized="false">
+    <resource referenceCreated="1467422563531" size="22430"
         spec="/Users/whimar/git/vivo4hp/diagrams/LifespanModeling.vue"
         type="1" xsi:type="URLResource">
         <title>LifespanModeling.vue</title>
@@ -19,16 +19,16 @@
     <textColor>#000000</textColor>
     <font>SansSerif-plain-14</font>
     <URIString>http://vue.tufts.edu/rdf/resource/8070f38a0a00011926f35bed4984c668</URIString>
-    <child ID="6" label="foaf:Person" layerID="1"
-        created="1466734586181" x="515.0" y="583.2083" width="128.22499"
+    <child ID="6" label="foaf:&#xa;Person" layerID="1"
+        created="1466734586181" x="515.0" y="583.2083" width="130.3"
         height="127.083435" strokeWidth="2.0" autoSized="false" xsi:type="node">
-        <fillColor>#FC938D</fillColor>
+        <fillColor>#8AEE95</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/8070f38b0a00011926f35bede4b1d1d3</URIString>
         <child ID="74" label="vivo4hp:odnbId" created="1467390732797"
-            x="42.612495" y="64.29172" width="95.0" height="22.0"
+            x="43.65" y="71.29172" width="95.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FFFFFF</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -53,7 +53,7 @@
     <child ID="13" label="vivo4hp:&#xa;Lifespan" layerID="1"
         created="1466734714164" x="388.0" y="443.52957" width="74.1"
         height="73.200005" strokeWidth="2.0" autoSized="false" xsi:type="node">
-        <fillColor>#EEEEEE</fillColor>
+        <fillColor>#D0D0D0</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-italic-12</font>
@@ -61,16 +61,25 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="14" label="vivo:&#xa;DateTime&#xa;Value" layerID="1"
-        created="1466736184078" x="169.63" y="205.0632"
-        width="156.40001" height="152.50565" strokeWidth="2.0"
-        autoSized="false" xsi:type="node">
+        created="1466736184078" x="169.63" y="205.0632" width="158.25"
+        height="152.50565" strokeWidth="2.0" autoSized="false" xsi:type="node">
         <fillColor>#EEEEEE</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/8070f38d0a00011926f35bed5b479a65</URIString>
+        <child ID="88" label="vivo:dateTime" created="1467402460760"
+            x="51.25" y="71.50282" width="87.0" height="22.0"
+            strokeWidth="1.0" autoSized="true" xsi:type="node">
+            <fillColor>#FFFFFF</fillColor>
+            <strokeColor>#000000</strokeColor>
+            <textColor>#000000</textColor>
+            <font>Arial-plain-12</font>
+            <URIString>http://vue.tufts.edu/rdf/resource/a8024b320a000119624da162a822f7c8</URIString>
+            <shape xsi:type="rectangle"/>
+        </child>
         <child ID="15" label="vivo4hp:beginning" created="1466736201063"
-            x="50.325005" y="81.25282" width="112.0" height="22.0"
+            x="51.25" y="91.00282" width="112.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FFFFFF</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -80,7 +89,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="66" label="vivo4hp:ending" created="1467390356192"
-            x="50.325005" y="100.75282" width="95.0" height="22.0"
+            x="51.25" y="110.50282" width="95.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FFFFFF</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -92,15 +101,15 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="21" label="vivo4hp:hasLifespan" layerID="1"
-        created="1466736345911" x="442.94543" y="506.56418"
-        width="100.0" height="93.990295" strokeWidth="1.0"
-        autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
+        created="1466736345911" x="443.2791" y="506.48645" width="100.0"
+        height="93.88028" strokeWidth="1.0" autoSized="false"
+        controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-italic-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/8070f3910a00011926f35bed480e00e9</URIString>
-        <point1 x="535.9363" y="600.05444"/>
-        <point2 x="449.95456" y="507.06415"/>
+        <point1 x="536.5083" y="599.8667"/>
+        <point2 x="450.04993" y="506.98642"/>
         <ID1 xsi:type="node">6</ID1>
         <ID2 xsi:type="node">13</ID2>
     </child>
@@ -118,53 +127,53 @@
         <ID2 xsi:type="node">12</ID2>
     </child>
     <child ID="23" label="vivo4hp:birth&#xa;vivo4hp:baptism" layerID="1"
-        created="1466736354056" x="298.41348" y="338.12384"
-        width="102.75055" height="115.14844" strokeWidth="1.0"
+        created="1466736354056" x="299.43195" y="338.52994"
+        width="101.80597" height="114.68213" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-italic-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/8070f3930a00011926f35bed1a06f6bd</URIString>
-        <point1 x="400.66403" y="452.77228"/>
-        <point2 x="298.91348" y="338.62384"/>
+        <point1 x="400.7379" y="452.71207"/>
+        <point2 x="299.93195" y="339.02994"/>
         <ID1 xsi:type="node">13</ID1>
         <ID2 xsi:type="node">14</ID2>
     </child>
     <child ID="24" label="vivo4hp:death&#xa;vivo4hp:burial" layerID="1"
-        created="1466736358095" x="305.5017" y="503.69684"
-        width="92.335846" height="80.32202" strokeWidth="1.0"
+        created="1466736358095" x="306.69055" y="503.7699"
+        width="91.20801" height="79.75351" strokeWidth="1.0"
         autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-italic-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/8070f3930a00011926f35bed36ece50e</URIString>
-        <point1 x="397.33752" y="504.19684"/>
-        <point2 x="306.00168" y="583.51886"/>
+        <point1 x="397.39856" y="504.26993"/>
+        <point2 x="307.19055" y="583.02344"/>
         <ID1 xsi:type="node">13</ID1>
         <ID2 xsi:type="node">70</ID2>
     </child>
     <child ID="25" label="vivo:dateTimePrecision" layerID="1"
-        created="1466736363911" x="82.36723" y="329.94144" width="113.0"
-        height="83.12604" strokeWidth="1.0" autoSized="false"
+        created="1466736363911" x="82.65015" y="330.17188" width="113.0"
+        height="83.04208" strokeWidth="1.0" autoSized="false"
         controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/8070f3940a00011926f35bedfae1ac77</URIString>
-        <point1 x="188.47827" y="330.44144"/>
-        <point2 x="89.2562" y="412.56747"/>
+        <point1 x="188.89854" y="330.6719"/>
+        <point2 x="89.401764" y="412.714"/>
         <ID1 xsi:type="node">14</ID1>
         <ID2 xsi:type="node">37</ID2>
     </child>
     <child ID="26" label="vivo:dateTimePrecision" layerID="1"
-        created="1466736365844" x="81.541214" y="683.82117"
-        width="113.0" height="89.5788" strokeWidth="1.0"
-        autoSized="false" controlCount="0" arrowState="2" xsi:type="link">
+        created="1466736365844" x="81.73369" y="683.9968" width="113.0"
+        height="89.40314" strokeWidth="1.0" autoSized="false"
+        controlCount="0" arrowState="2" xsi:type="link">
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-11</font>
         <URIString>http://vue.tufts.edu/rdf/resource/8070f3980a00011926f35bedc7d7423b</URIString>
-        <point1 x="189.45708" y="684.32117"/>
+        <point1 x="189.84203" y="684.4968"/>
         <point2 x="86.62535" y="772.89996"/>
         <ID1 xsi:type="node">70</ID1>
     </child>
@@ -221,16 +230,25 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="70" label="vivo:&#xa;DateTime&#xa;Value" layerID="1"
-        created="1467390390091" x="169.63" y="557.78613"
-        width="156.40001" height="152.50565" strokeWidth="2.0"
-        autoSized="false" xsi:type="node">
+        created="1467390390091" x="169.63" y="557.78613" width="158.25"
+        height="152.50565" strokeWidth="2.0" autoSized="false" xsi:type="node">
         <fillColor>#EEEEEE</fillColor>
         <strokeColor>#000000</strokeColor>
         <textColor>#000000</textColor>
         <font>Arial-plain-12</font>
         <URIString>http://vue.tufts.edu/rdf/resource/a74f1cf70a000119624da162c0921024</URIString>
+        <child ID="87" label="vivo:dateTime" created="1467402445890"
+            x="51.25" y="71.50282" width="87.0" height="22.0"
+            strokeWidth="1.0" autoSized="true" xsi:type="node">
+            <fillColor>#FFFFFF</fillColor>
+            <strokeColor>#000000</strokeColor>
+            <textColor>#000000</textColor>
+            <font>Arial-plain-12</font>
+            <URIString>http://vue.tufts.edu/rdf/resource/a8024b330a000119624da162c6489de1</URIString>
+            <shape xsi:type="rectangle"/>
+        </child>
         <child ID="71" label="vivo4hp:beginning" created="1467390390091"
-            x="50.325005" y="81.25282" width="112.0" height="22.0"
+            x="51.25" y="91.00282" width="112.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FFFFFF</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -240,7 +258,7 @@
             <shape xsi:type="rectangle"/>
         </child>
         <child ID="72" label="vivo4hp:ending" created="1467390390091"
-            x="50.325005" y="100.75282" width="95.0" height="22.0"
+            x="51.25" y="110.50282" width="95.0" height="22.0"
             strokeWidth="1.0" autoSized="true" xsi:type="node">
             <fillColor>#FFFFFF</fillColor>
             <strokeColor>#000000</strokeColor>
@@ -252,9 +270,9 @@
         <shape xsi:type="ellipse"/>
     </child>
     <child ID="80"
-        label="VIVO for Historical Persons&#xa;    &#xa;    &#xa;      VIVO-ISF extensions for historical date &#xa;      modeling Lifespan example&#xa;    &#xa;    &#xa;      2016.07.01"
+        label="VIVO for Historical Persons VIVO-ISF extensions for historical date modeling Lifespan example 2016.07.01"
         layerID="1" created="1467400269594" x="234.29999" y="864.1591"
-        width="405.0" height="90.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
+        width="404.0" height="103.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
         <strokeColor>#404040</strokeColor>
         <textColor>#000000</textColor>
         <font>-plain-18</font>
@@ -273,26 +291,19 @@
   &lt;/head&gt;
   &lt;body&gt;
     &lt;p color="#000000" style="color: #000000"&gt;
-      &lt;font style="font-size:18;"&gt;&lt;b&gt;VIVO for Historical Persons&lt;/b&gt;
-&lt;/font&gt;    &lt;/p&gt;
+      &lt;font style="font-size:18;"&gt;&lt;b&gt;VIVO for Historical Persons&lt;/b&gt; &lt;/font&gt;
+    &lt;/p&gt;
     &lt;p color="#000000" style="color: #000000"&gt;
       &lt;font style="font-size:18;"&gt;VIVO-ISF extensions for historical date 
-      modeling Lifespan example
-&lt;/font&gt;    &lt;/p&gt;
+      modeling Lifespan example &lt;/font&gt;
+    &lt;/p&gt;
     &lt;p color="#000000" style="color: #000000"&gt;
       &lt;font style="font-size:18;"&gt;2016.07.01&lt;/font&gt;
     &lt;/p&gt;
   &lt;/body&gt;
 &lt;/html&gt;
 </richText>
-        <label>VIVO for Historical Persons
-    
-    
-      VIVO-ISF extensions for historical date 
-      modeling Lifespan example
-    
-    
-      2016.07.01</label>
+        <label>VIVO for Historical Persons VIVO-ISF extensions for historical date modeling Lifespan example 2016.07.01</label>
     </child>
     <child ID="82" label="vivo:&#xa;DateTime&#xa;ValuePrecision"
         layerID="1" created="1467401621130" x="-110.918846"
@@ -350,7 +361,7 @@
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/8070f3990a00011926f35bed63663863</URIString>
     </layer>
-    <userZoom>1.6831962080607992</userZoom>
+    <userZoom>1.0</userZoom>
     <userOrigin x="-807.35944" y="323.9784"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
