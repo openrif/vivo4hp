@@ -1,7 +1,7 @@
 <!-- Tufts VUE 3.3.0 concept-map (DiplomaticMissionModeling.vue) 2016-07-03 -->
 <!-- Tufts VUE: http://vue.tufts.edu/ -->
 <!-- Do Not Remove: VUE mapping @version(1.1) jar:file:/Applications/VUE.app/Contents/Resources/Java/VUE.jar!/tufts/vue/resources/lw_mapping_1_1.xml -->
-<!-- Do Not Remove: Saved date Sun Jul 03 19:55:57 PDT 2016 by whimar on platform Mac OS X 10.11.5 in JVM 1.8.0_74-b02 -->
+<!-- Do Not Remove: Saved date Sun Jul 03 20:02:51 PDT 2016 by whimar on platform Mac OS X 10.11.5 in JVM 1.8.0_74-b02 -->
 <!-- Do Not Remove: Saving version @(#)VUE: built October 8 2015 at 1658 by tomadm on Linux 2.6.32-504.23.4.el6.x86_64 i386 JVM 1.7.0_21-b11(bits=32) -->
 <?xml version="1.0" encoding="US-ASCII"?>
 <LW-MAP xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
@@ -9,7 +9,7 @@
     label="DiplomaticMissionModeling.vue" created="1467418915786"
     x="0.0" y="0.0" width="781.2765" height="1377.1559"
     strokeWidth="0.0" autoSized="false">
-    <resource referenceCreated="1467600957460" size="47301"
+    <resource referenceCreated="1467601371419" size="47311"
         spec="/Users/whimar/git/vivo4hp/diagrams/DiplomaticMissionModeling.vue"
         type="1" xsi:type="URLResource">
         <title>DiplomaticMissionModeling.vue</title>
@@ -855,12 +855,55 @@
         <ID1 xsi:type="node">126</ID1>
         <ID2 xsi:type="node">131</ID2>
     </child>
+    <child ID="137"
+        label="VIVO for Historical Persons&#xa;    &#xa;    &#xa;      VIVO-ISF extensions for diplomatic mission &#xa;      modeling&#xa;    &#xa;    &#xa;      2016.07.03"
+        layerID="1" created="1467601071301" x="7.1936646" y="-265.57764"
+        width="241.0" height="90.0" strokeWidth="0.0" autoSized="false" xsi:type="text">
+        <strokeColor>#404040</strokeColor>
+        <textColor>#000000</textColor>
+        <font>-plain-18</font>
+        <URIString>http://vue.tufts.edu/rdf/resource/b3dbc11e0a000119624da16256997a47</URIString>
+        <richText>&lt;html&gt;
+  &lt;head color="#404040" style="color: #404040"&gt;
+    &lt;style type="text/css"&gt;
+      &lt;!--
+        body { margin-top: 0px; margin-bottom: 0px; margin-left: 0px; margin-right: 0px; font-size: 11; font-family: Arial; color: #404040 }
+        ol { margin-top: 6; font-family: Arial; vertical-align: middle; margin-left: 30; font-size: 11; list-style-position: outside }
+        p { margin-top: 0; margin-left: 0; margin-right: 0; margin-bottom: 0; color: #404040 }
+        ul { margin-top: 6; font-size: 11; margin-left: 30; vertical-align: middle; list-style-position: outside; font-family: Arial }
+      --&gt;
+    &lt;/style&gt;
+    
+  &lt;/head&gt;
+  &lt;body&gt;
+    &lt;p color="#404040" style="color: #404040"&gt;
+      &lt;font style="font-size:18;"&gt;&lt;b&gt;VIVO for Historical Persons&lt;/b&gt;
+&lt;/font&gt;    &lt;/p&gt;
+    &lt;p color="#404040" style="color: #404040"&gt;
+      &lt;font style="font-size:18;"&gt;VIVO-ISF extensions for diplomatic mission 
+      modeling
+&lt;/font&gt;    &lt;/p&gt;
+    &lt;p color="#404040" style="color: #404040"&gt;
+      &lt;font style="font-size:18;"&gt;2016.07.03&lt;/font&gt;
+    &lt;/p&gt;
+  &lt;/body&gt;
+&lt;/html&gt;
+</richText>
+        <label>VIVO for Historical Persons
+    
+    
+      VIVO-ISF extensions for diplomatic mission 
+      modeling
+    
+    
+      2016.07.03</label>
+    </child>
     <layer ID="1" label="Layer 1" created="1467418915788" x="0.0"
         y="0.0" width="1.4E-45" height="1.4E-45" strokeWidth="0.0" autoSized="false">
         <URIString>http://vue.tufts.edu/rdf/resource/b3cf480b0a000119624da162ac5cce37</URIString>
     </layer>
     <userZoom>0.9171075074849351</userZoom>
-    <userOrigin x="-267.81195" y="-542.8686"/>
+    <userOrigin x="-297.97867" y="-542.8686"/>
     <presentationBackground>#202020</presentationBackground>
     <PathwayList currentPathway="0" revealerIndex="-1">
         <pathway ID="0" label="Untitled Pathway" created="1467418915782"
