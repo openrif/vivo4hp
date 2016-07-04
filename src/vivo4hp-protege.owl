@@ -1,0 +1,533 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://vivoweb.org/ontology/vivo4hp#"
+     xml:base="http://vivoweb.org/ontology/vivo4hp"
+     xmlns:study_protocol="http://purl.org/net/OCRe/study_protocol.owl#"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:ns="http://www.w3.org/2006/vcard/ns#"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:ns2="http://www.w3.org/2003/06/sw-vocab-status/ns#"
+     xmlns:geopolitical="http://aims.fao.org/aos/geopolitical.owl#"
+     xmlns:vivo4hp="http://vivoweb.org/ontology/vivo4hp#"
+     xmlns:vitro="http://vitro.mannlib.cornell.edu/ns/vitro/0.7#"
+     xmlns:core="http://vivoweb.org/ontology/core#"
+     xmlns:skos1="http://www.w3.org/2008/05/skos#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:statistics="http://purl.org/net/OCRe/statistics.owl#">
+    <owl:Ontology rdf:about="http://vivoweb.org/ontology/vivo4hp">
+        <owl:imports rdf:resource="http://vivoweb.org/ontology/core"/>
+    </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#assignedBy -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#assignedBy"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#dateTimeInterval -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#dateTimeInterval"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#end -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#end"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#relates -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#relates"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#start -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/core#start"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#baptismDate -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#baptismDate">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#start"/>
+        <rdfs:domain rdf:resource="http://vivoweb.org/ontology/vivo4hp#Lifespan"/>
+        <rdfs:range rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdfs:label>baptism</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#begin -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#begin">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#dateTime"/>
+        <rdfs:label>beginning</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#birthDate -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#birthDate">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#start"/>
+        <rdfs:domain rdf:resource="http://vivoweb.org/ontology/vivo4hp#Lifespan"/>
+        <rdfs:range rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdfs:label>birth</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#burialDate -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#burialDate">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#end"/>
+        <rdfs:domain rdf:resource="http://vivoweb.org/ontology/vivo4hp#Lifespan"/>
+        <rdfs:range rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdfs:label>burial</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#deathDate -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#deathDate">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#end"/>
+        <rdfs:domain rdf:resource="http://vivoweb.org/ontology/vivo4hp#Lifespan"/>
+        <rdfs:range rdf:resource="http://vivoweb.org/ontology/core#DateTimeValue"/>
+        <rdfs:label>death</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#end -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#end">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#dateTime"/>
+        <rdfs:label>ending</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#hasFloruit -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#hasFloruit">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#dateTimeInterval"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://vivoweb.org/ontology/vivo4hp#Floruit"/>
+        <rdfs:label>floruit</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#hasLifespan -->
+
+    <owl:ObjectProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#hasLifespan">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#dateTimeInterval"/>
+        <rdfs:domain rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+        <rdfs:range rdf:resource="http://vivoweb.org/ontology/vivo4hp#Lifespan"/>
+        <rdfs:label>lifespan</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#identifier -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/core#identifier"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#diplomaticMissionId -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#diplomaticMissionId">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <rdfs:label>diplomatic mission ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#odnbId -->
+
+    <owl:DatatypeProperty rdf:about="http://vivoweb.org/ontology/vivo4hp#odnbId">
+        <rdfs:subPropertyOf rdf:resource="http://vivoweb.org/ontology/core#identifier"/>
+        <obo:IAO_0000115>Oxford Dictonary of National Biography identifier</obo:IAO_0000115>
+        <rdfs:label>ODNB ID</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/BFO_0000023 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000023"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#DateTimeInterval -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#DateTimeInterval"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#DateTimeValue -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#DateTimeValue"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#DateTimeValuePrecision -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Meeting -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Meeting"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/core#Relationship -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/core#Relationship"/>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#AmbassadorExtraordinaryRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#AmbassadorExtraordinaryRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#ResidentAmbassadorRole"/>
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#SpecialAmbassadorRole"/>
+        <rdfs:label>Ambassador Extraordinary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#AmbassadorOrdinaryRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#AmbassadorOrdinaryRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#ResidentAmbassadorRole"/>
+        <rdfs:label>Ambassador Ordinary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#ChargeDAffairesRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#ChargeDAffairesRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomatRole"/>
+        <rdfs:label>Charge d&apos;Affaires</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#DiplomatRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#DiplomatRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label>Diplomat</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#DiplomaticAgentRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#DiplomaticAgentRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomatRole"/>
+        <rdfs:label>Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#DiplomaticAssistantRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#DiplomaticAssistantRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomatRole"/>
+        <rdfs:label>Assistant</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#DiplomaticCommissioner -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#DiplomaticCommissioner">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomatRole"/>
+        <rdfs:label>Commissioner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#DiplomaticMission -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#DiplomaticMission">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Meeting"/>
+        <rdfs:label>Diplomatic Mission</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#DiplomaticRelationship -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#DiplomaticRelationship">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#Relationship"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
+                <owl:someValuesFrom rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomatRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
+                <owl:someValuesFrom rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomaticMission"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
+                <owl:someValuesFrom rdf:resource="http://vivoweb.org/ontology/vivo4hp#Government"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
+                <owl:someValuesFrom rdf:resource="http://vivoweb.org/ontology/vivo4hp#ReceivingCountryRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
+                <owl:someValuesFrom rdf:resource="http://vivoweb.org/ontology/vivo4hp#SendingCountryRole"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#relates"/>
+                <owl:someValuesFrom rdf:resource="http://xmlns.com/foaf/0.1/Person"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://vivoweb.org/ontology/core#assignedBy"/>
+                <owl:allValuesFrom rdf:resource="http://vivoweb.org/ontology/vivo4hp#Government"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label>Diplomatic Relationship</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#DiplomaticSecretaryRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#DiplomaticSecretaryRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomatRole"/>
+        <rdfs:label>Secretary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#EnvoyExtraordinaryRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#EnvoyExtraordinaryRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#SpecialAmbassadorRole"/>
+        <rdfs:label>Envoy Extraordinary</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#Floruit -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#Floruit">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#DateTimeInterval"/>
+        <rdfs:label>Floruit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#Government -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#Government">
+        <rdfs:subClassOf rdf:resource="http://xmlns.com/foaf/0.1/Organization"/>
+        <rdfs:label>Government</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#Lifespan -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#Lifespan">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/core#DateTimeInterval"/>
+        <obo:IAO_0000115>The lifetime of a being, beginning with birth and ending with death.</obo:IAO_0000115>
+        <rdfs:label>Lifespan</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#ReceivingCountryRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#ReceivingCountryRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label>Receiving Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#ResidentAgentRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#ResidentAgentRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomaticAgentRole"/>
+        <rdfs:label>Resident Agent</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#ResidentAmbassadorRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#ResidentAmbassadorRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomatRole"/>
+        <rdfs:label>Resident Ambassador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#SecretEnvoyRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#SecretEnvoyRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomatRole"/>
+        <rdfs:label>Secret Envoy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#SendingCountryRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#SendingCountryRole">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000023"/>
+        <rdfs:label>Sending Country</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#SpecialAmbassadorRole -->
+
+    <owl:Class rdf:about="http://vivoweb.org/ontology/vivo4hp#SpecialAmbassadorRole">
+        <rdfs:subClassOf rdf:resource="http://vivoweb.org/ontology/vivo4hp#DiplomatRole"/>
+        <rdfs:label>Special Ambassador</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Organization -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Organization"/>
+    
+
+
+    <!-- http://xmlns.com/foaf/0.1/Person -->
+
+    <owl:Class rdf:about="http://xmlns.com/foaf/0.1/Person"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#beforePrecision -->
+
+    <owl:NamedIndividual rdf:about="http://vivoweb.org/ontology/vivo4hp#beforePrecision">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#circaPrecision -->
+
+    <owl:NamedIndividual rdf:about="http://vivoweb.org/ontology/vivo4hp#circaPrecision">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#inOrAfterPrecision -->
+
+    <owl:NamedIndividual rdf:about="http://vivoweb.org/ontology/vivo4hp#inOrAfterPrecision">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://vivoweb.org/ontology/vivo4hp#questionablePrecision -->
+
+    <owl:NamedIndividual rdf:about="http://vivoweb.org/ontology/vivo4hp#questionablePrecision">
+        <rdf:type rdf:resource="http://vivoweb.org/ontology/core#DateTimeValuePrecision"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+
